@@ -1,0 +1,67 @@
+.hero-section {
+    background-image: url('path_to_hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+    color: #6c757d;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+    border-radius: 25px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #43ffc0;
+    border-color: #28e4a5;
+    border: #28e4a5;
+}
+
+.btn-primary:hover {
+    background-color: #1cd698;
+    border-color: #11d191;
+    border: #11d191;
+}
+
+.btn-success {
+    background-color:#43ffc0;
+    border: #43ffc0;
+
+}
+
+.btn-success:hover {
+    background-color: #11d191;
+    border: #11d191;
+}
